@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "estrutura-workshop"
+version = "0.1.0"
+description = "workshop-1 - meu primeiro projeto de etl"
+authors = ["andysouza <andysouzads@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+pandas = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
